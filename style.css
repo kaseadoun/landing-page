@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center stretch;
+    justify-content: center;
+    background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.logo {
+    color: #F9FAF8;
+}
+ul {
+    display: flex;
+    color: #E5E7EB;
+    list-style: none;
+    gap: 50px;
+}
+
+/* Introduction Content */
+.intro-content {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.intro-content div {
+    max-width: 48%;
+}
+.intro-content img {
+    max-width: 48%;
+}
+.intro-content button {
+    background-color: #3882F6;
+    color: white;
+    border: solid #3882F6;
+    border-radius: 5%;
+    padding: 5px 20px;
+    transition: 0.05s ease-in;
+}
+.intro-content button:hover {
+    background-color: #0062ff;
+    border: solid #0062ff;
+    color: white;
+    border-radius: 5%;
+    padding: 5px 20px;
+    transition: 0.05s ease-in;
+}
+
+
+/* Middle Content */
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 60px;
+}
+.middle-content h2{
+    text-align: center;
+    color: #1F2937;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10px 0 10px;
+    max-width: 200px;
+}
+.card-content img{
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+}
+
+/* Quote */
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+    padding: 5em 7em;
+}
+.quote-section p{
+    margin: 0;
+}
+.quote-credit{
+    font-size: 24px;
+}
+
+/* Sign Up Section */
+.signup-section {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 5%;
+}
+.signup-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    width: 60%;
+}
+
+/* Footer */
+.footer {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 25px;;
+}
